@@ -7,7 +7,8 @@ const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'Desafio Univali - Cadastro com validação e restrições',
-  description: 'Aqui mostro um pouco mais de meus conhecimentos como programador web, desafio proposto para vaga front-end.',
+  description:
+    'Aqui mostro um pouco mais de meus conhecimentos como programador web, desafio proposto para vaga front-end.',
 };
 
 const RootLayout: FC<PropsWithChildren> = ({ children }) => {
